@@ -1,9 +1,16 @@
-var express = require('express');
+/*var express = requiere('express');
 var app=express();
 
-app.get('/', function(req,res){
+app.get('/hola', function(req,res){
     res.send('Hola Mundo!!!');
 });
-app.listen(3000, function(){
-    console.log('Aplicacion ejemplo, escuchando el puerto 3000!');
+app.get('/adios', function(req,res){
+    res.send('Adios Mundo!!!');
 });
+app.listen(3000, function(){
+    console.log('Aplicacion Ejemplo, Escucha el puerto 3000!');
+});*/
+const express =require('express');
+const port =3002;
+
+const bodyParser=require('body-parser');
